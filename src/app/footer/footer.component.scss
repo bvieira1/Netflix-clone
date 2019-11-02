@@ -1,0 +1,33 @@
+$main-primary-color: #e50914;
+$main-white-color: #fff;
+.footer {
+    max-width: 75%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+footer {
+    border-top: 0.5px solid #999;
+}
+
+.footer,
+.footer a {
+    color: #999;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li {
+    line-height: 1.9rem;
+    list-style: none;
+}
